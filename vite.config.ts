@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
       tsconfigPaths(),
   ],
-  server: {
+  preview: {
     port: 3000,
   },
   build: {
