@@ -10,6 +10,6 @@ export default defineConfig({
     port: 3000,
   },
   build: {
-    assetsDir: 'k92ebc3e719eda/assets',
+    outDir: 'dist/k92ebc3e719eda',
   },
 });
