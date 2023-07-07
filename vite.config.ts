@@ -9,7 +9,5 @@ export default defineConfig({
   preview: {
     port: 3000,
   },
-  build: {
-    outDir: 'dist/k92ebc3e719eda',
-  },
+  base: '/k92ebc3e719eda/'
 });
