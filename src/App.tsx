@@ -18,13 +18,13 @@ function App() {
       <GlobalFonts />
       <Layout>
         <Routes>
-          <Route path='/' element={<LandingPage />} />
-          <Route path='/main' element={<MainPage />} />
+          <Route path={staticServerUri + '/'} element={<LandingPage />} />
+          <Route path={staticServerUri + '/main'} element={<MainPage />} />
           <Route
-            path='/main/:routeId/book'
+            path={staticServerUri + '/main/:routeId/book'}
             element={<GuestBookPage />}
           />
-          <Route path='*' element={<NotFoundPage />} />
+          <Route path={staticServerUri + '*'} element={<NotFoundPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>
