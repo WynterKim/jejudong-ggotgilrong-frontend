@@ -9,5 +9,5 @@ export default defineConfig({
   preview: {
     port: 3000,
   },
-  base: '/k92ebc3e719eda/'
+  publicDir: '/k92ebc3e719eda/'
 });
