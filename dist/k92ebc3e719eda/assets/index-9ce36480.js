@@ -122,7 +122,7 @@ table {
 a{
   text-decoration: none
 }
-`,$y="/assets/Pretendard-Regular-98f99c33.woff2",Dy="/assets/NanumSquareNeoTTF-bRg-d13846b6.woff2",Fy="/assets/NanumSquareRoundR-52862fdf.ttf",By=Wp`
+`,$y="/k92ebc3e719eda/assets/Pretendard-Regular-98f99c33.woff2",Dy="/k92ebc3e719eda/assets/NanumSquareNeoTTF-bRg-d13846b6.woff2",Fy="/k92ebc3e719eda/assets/NanumSquareRoundR-52862fdf.ttf",By=Wp`
 @font-face {
     font-family: "Pretendard";
     src: local("PretendardRegular"),
