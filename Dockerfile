@@ -4,4 +4,12 @@ COPY package*.json ./
 RUN npm ci
 COPY . .
 
-CMD ["npm", "run", "preview"]
+RUN apt-get update && \
+    apt-get install -y nginx && \
+    rm -rf /var/lib/apt/lists/* && \
+    rm /etc/nginx/sites-enabled/default
+COPY default.conf /etc/nginx/conf.d/
+
+RUN npm install -g serve
+
+CMD npm run build && service nginx start && serve -s build
